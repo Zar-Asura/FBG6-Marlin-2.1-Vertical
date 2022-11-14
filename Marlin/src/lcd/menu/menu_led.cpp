@@ -122,6 +122,13 @@
       END_MENU();
     }
   #endif
+
+  void menu_case_on(){
+    START_MENU();
+    CASELIGHT_TOGGLE_ITEM();
+    END_MENU();
+  }
+  
 #endif
 
 void menu_led() {

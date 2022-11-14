@@ -205,6 +205,7 @@ class MenuEditItemBase : public MenuItemBase {
 
 void menu_main();
 void menu_move();
+void menu_case_on();
 
 #if ENABLED(SDSUPPORT)
   void menu_media();
